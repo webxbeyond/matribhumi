@@ -1,0 +1,48 @@
+export type BangladeshInfo = {
+    name: string;
+    capital: string;
+    officialLanguage: string;
+    currency: string;
+    area: string;
+    population: string;
+    callingCode: string;
+    timeZone: string;
+    drivingSide: string;
+    continent: string;
+    independenceDay: string;
+    nationalAnimal: string;
+    nationalFlower: string;
+    nationalBird: string;
+    majorRivers: string[];
+    majorCities: string[];
+    notableLandmarks: string[];
+    literacyRate: string;
+    GDP: string;
+    majorIndustries: string[];
+    climate: string;
+    nationalSports: string;
+    famousFoods: string[];
+    historicalFigures: string[];
+    traditionalFestivals: string[];
+    neighboringCountries: string[];
+    nationalMotto: string;
+    highestPeak: string;
+    majorAirports: string[];
+    transportSystem: {
+        railways: string;
+        waterways: string;
+        roadways: string;
+    };
+    wildlife: string[];
+    famousUniversities: string[];
+    internetTLD: string;
+    famousBridges: string[];
+    nationalMuseum: string;
+    popularSports: string[];
+    governmentType: string;
+    militaryForces: {
+        army: string;
+        navy: string;
+        airForce: string;
+    };
+};
