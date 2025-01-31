@@ -5,6 +5,7 @@
 .DS_Store
 .github
 .idea
+.gitattributes
 
 tsconfig.json
 tsup.config.ts

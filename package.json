@@ -14,9 +14,10 @@
   "author": "Anis Afifi",
   "license": "ISC",
   "scripts": {
-    "build": "tsup"
+    "build": "tsup "
   },
   "devDependencies": {
+    "terser": "^5.37.0",
     "tsup": "^8.3.6",
     "typescript": "^5.7.3"
   }
