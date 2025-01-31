@@ -1,0 +1,23 @@
+{
+  "name": "matribhumi",
+  "description": "A package providing information about Bangladesh.",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "Bangladesh",
+    "Data",
+    "BD Info",
+    "Matribhumi"
+  ],
+  "author": "Anis Afifi",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.6",
+    "typescript": "^5.7.3"
+  }
+}
