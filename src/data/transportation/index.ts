@@ -1,0 +1,1 @@
+export { airports, busStations, railwayStations } from './transportation';

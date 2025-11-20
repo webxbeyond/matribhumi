@@ -1,4 +1,4 @@
-import type { District } from "../../types/geo";
+import type { District } from '../../types/geo';
 
 export const districts: District[] = [
   {
@@ -577,4 +577,4 @@ export const districts: District[] = [
     lon: '88.4616834',
     url: 'www.thakurgaon.gov.bd',
   },
-]
+];

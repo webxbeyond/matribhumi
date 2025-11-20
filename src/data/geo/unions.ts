@@ -1,4 +1,4 @@
-import type { Union } from "../../types/geo";
+import type { Union } from '../../types/geo';
 
 export const unions: Union[] = [
   {
@@ -31781,4 +31781,4 @@ export const unions: Union[] = [
     bn_name: 'জোড়গাছা',
     url: 'zorgachaup.bogra.gov.bd',
   },
-]
+];

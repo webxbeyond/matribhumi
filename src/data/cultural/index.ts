@@ -1,0 +1,1 @@
+export { culturalHeritage } from './cultural';

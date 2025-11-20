@@ -1,0 +1,1 @@
+export { educationalInstitutions } from './education';

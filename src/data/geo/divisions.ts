@@ -1,4 +1,4 @@
-import type { Division } from "../../types/geo";
+import type { Division } from '../../types/geo';
 
 export const divisions: Division[] = [
   { id: '4', name: 'Barisal', bn_name: 'বরিশাল', url: 'www.barisaldiv.gov.bd' },
@@ -24,4 +24,4 @@ export const divisions: Division[] = [
   },
   { id: '7', name: 'Rangpur', bn_name: 'রংপুর', url: 'www.rangpurdiv.gov.bd' },
   { id: '5', name: 'Sylhet', bn_name: 'সিলেট', url: 'www.sylhetdiv.gov.bd' },
-]
+];

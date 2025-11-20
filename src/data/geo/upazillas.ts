@@ -1,4 +1,4 @@
-import type { Upazilla } from "../../types/geo";
+import type { Upazilla } from '../../types/geo';
 
 export const upazillas: Upazilla[] = [
   {
@@ -3438,4 +3438,4 @@ export const upazillas: Upazilla[] = [
     bn_name: 'জিয়ানগর',
     url: 'zianagar.pirojpur.gov.bd',
   },
-]
+];

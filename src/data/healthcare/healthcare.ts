@@ -1,0 +1,152 @@
+import type { HealthcareFacility } from '../../types/healthcare';
+
+export const healthcareFacilities: HealthcareFacility[] = [
+  // Dhaka Division - Major Hospitals
+  {
+    id: 'dhaka_medical_college',
+    name: 'Dhaka Medical College Hospital',
+    type: 'hospital',
+    district: 'Dhaka',
+    division: 'Dhaka',
+    address: 'Dhaka Medical College, Secretariat Road, Dhaka',
+    phone: '+880-2-55165088',
+    website: 'https://dmch.gov.bd',
+    coordinates: { lat: 23.7257, lon: 90.3992 },
+    specialties: ['General Medicine', 'Surgery', 'Cardiology', 'Neurology'],
+    beds: 2600,
+    emergencyServices: true,
+  },
+  {
+    id: 'bangabandhu_sheikh_mujib_medical_university',
+    name: 'Bangabandhu Sheikh Mujib Medical University',
+    type: 'medical_college',
+    district: 'Dhaka',
+    division: 'Dhaka',
+    address: 'Shahbagh, Dhaka',
+    phone: '+880-2-9661051',
+    website: 'https://bsmmu.edu.bd',
+    coordinates: { lat: 23.7387, lon: 90.3958 },
+    specialties: ['Medical Education', 'Research', 'Specialized Treatments'],
+    beds: 1500,
+    emergencyServices: true,
+  },
+  {
+    id: 'square_hospital',
+    name: 'Square Hospital',
+    type: 'hospital',
+    district: 'Dhaka',
+    division: 'Dhaka',
+    address: '18/F, Bir Uttam Qazi Nuruzzaman Sarak, West Panthapath, Dhaka',
+    phone: '+880-2-8144400',
+    website: 'https://squarehospital.com',
+    coordinates: { lat: 23.7518, lon: 90.3819 },
+    specialties: ['Cardiology', 'Neurology', 'Oncology', 'Orthopedics'],
+    beds: 400,
+    emergencyServices: true,
+  },
+
+  // Chittagong Division
+  {
+    id: 'chittagong_medical_college',
+    name: 'Chittagong Medical College Hospital',
+    type: 'hospital',
+    district: 'Chittagong',
+    division: 'Chittagong',
+    address: 'Chittagong Medical College, Chittagong',
+    phone: '+880-31-619100',
+    coordinates: { lat: 22.3569, lon: 91.7832 },
+    specialties: ['General Medicine', 'Surgery', 'Pediatrics'],
+    beds: 1000,
+    emergencyServices: true,
+  },
+
+  // Khulna Division
+  {
+    id: 'khulna_medical_college',
+    name: 'Khulna Medical College Hospital',
+    type: 'hospital',
+    district: 'Khulna',
+    division: 'Khulna',
+    address: 'Khulna Medical College, Khulna',
+    phone: '+880-41-720171',
+    coordinates: { lat: 22.8456, lon: 89.5403 },
+    specialties: ['General Medicine', 'Surgery', 'Gynecology'],
+    beds: 500,
+    emergencyServices: true,
+  },
+
+  // Rajshahi Division
+  {
+    id: 'rajshahi_medical_college',
+    name: 'Rajshahi Medical College Hospital',
+    type: 'hospital',
+    district: 'Rajshahi',
+    division: 'Rajshahi',
+    address: 'Rajshahi Medical College, Rajshahi',
+    phone: '+880-721-774331',
+    coordinates: { lat: 24.3636, lon: 88.6241 },
+    specialties: ['General Medicine', 'Surgery', 'Cardiology'],
+    beds: 500,
+    emergencyServices: true,
+  },
+
+  // Sylhet Division
+  {
+    id: 'sylhet_mag_osmani_medical_college',
+    name: 'Sylhet MAG Osmani Medical College Hospital',
+    type: 'hospital',
+    district: 'Sylhet',
+    division: 'Sylhet',
+    address: 'Sylhet MAG Osmani Medical College, Sylhet',
+    phone: '+880-821-713668',
+    coordinates: { lat: 24.8949, lon: 91.8687 },
+    specialties: ['General Medicine', 'Surgery', 'Pediatrics'],
+    beds: 500,
+    emergencyServices: true,
+  },
+
+  // Barisal Division
+  {
+    id: 'sher_e_bangla_medical_college',
+    name: 'Sher-e-Bangla Medical College Hospital',
+    type: 'hospital',
+    district: 'Barisal',
+    division: 'Barisal',
+    address: 'Sher-e-Bangla Medical College, Barisal',
+    phone: '+880-431-2171188',
+    coordinates: { lat: 22.701, lon: 90.3535 },
+    specialties: ['General Medicine', 'Surgery'],
+    beds: 500,
+    emergencyServices: true,
+  },
+
+  // Rangpur Division
+  {
+    id: 'rangpur_medical_college',
+    name: 'Rangpur Medical College Hospital',
+    type: 'hospital',
+    district: 'Rangpur',
+    division: 'Rangpur',
+    address: 'Rangpur Medical College, Rangpur',
+    phone: '+880-521-53800',
+    coordinates: { lat: 25.7439, lon: 89.2752 },
+    specialties: ['General Medicine', 'Surgery'],
+    beds: 500,
+    emergencyServices: true,
+  },
+
+  // Mymensingh Division
+  {
+    id: 'mymensingh_medical_college',
+    name: 'Mymensingh Medical College Hospital',
+    type: 'hospital',
+    district: 'Mymensingh',
+    division: 'Mymensingh',
+    address: 'Mymensingh Medical College, Mymensingh',
+    phone: '+880-91-66063',
+    coordinates: { lat: 24.7471, lon: 90.4203 },
+    specialties: ['General Medicine', 'Surgery'],
+    beds: 500,
+    emergencyServices: true,
+  },
+];
